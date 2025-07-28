@@ -11,6 +11,10 @@ venv/
 # Ignore node_modules
 node_modules/
 
+# ignore raw data
+*.csv
+
+
 # Ignore log files
 *.log
 
