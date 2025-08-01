@@ -12,7 +12,7 @@ venv/
 node_modules/
 
 # ignore processed data
-*.parquet
+# *.parquet
 
 # Ignore log files
 *.log

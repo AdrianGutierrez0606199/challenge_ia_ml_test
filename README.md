@@ -33,22 +33,16 @@ Este repositorio contiene la solución al reto de Machine Learning/Análisis de 
   - **raw/**  
     Datos originales sin procesar.
   - **staging/**  
-    Datos limpios y listos para análisis.
+    Datos limpios y listos para análisis,
   - **analitycs/**  
     Datos finales preprocesados para modelado.
-
-- **input_info/**  
-  Información adicional y archivos de apoyo para el reto.
-
-- **nequi_ds_test/**  
-  Carpeta independiente con otro test de ciencia de datos (no es parte central del reto principal).
 
 ### Archivos Clave
 
 - `README.md`  
   Este archivo, con la guía de navegación y explicación del reto.
 - `.gitignore`  
-  Configuración para ignorar archivos temporales, binarios y datos pesados.
+  Configuración para ignorar archivos temporales.
 
 ### ¿Cómo abordar el repositorio?
 
@@ -59,7 +53,7 @@ Este repositorio contiene la solución al reto de Machine Learning/Análisis de 
    Continuar con la carpeta `ML_models_1_2/`, donde se realiza la ingeniería de características y el entrenamiento de los modelos. El notebook `Feature_Engineering_Models.ipynb` contiene todo el flujo de modelado, desde la selección de variables hasta la comparación de modelos.
 
 3. **Datos:**  
-   Los datos procesados no se incluyen por tamaño, pero la estructura de carpetas indica dónde deben ubicarse (`data/raw/`, `data/staging/`, `data/analitycs/`). Si se desea ejecutar los notebooks, colocar los archivos correspondientes en estas rutas.
+   Vale la pena resaltar que la unica tabla que se necesita para ejecutar el repositorio es la tabla .csv que esta en `data/raw`, los otros achivos corresponden a data procesada y son creadas por los notebooks del repositorio.
 
 4. **Exportaciones HTML:**  
    Para una revisión rápida sin necesidad de ejecutar código, se incluyen exportaciones HTML de los notebooks principales.
