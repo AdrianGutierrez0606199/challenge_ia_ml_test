@@ -1,0 +1,47 @@
+{
+    "id_vars": [
+        "Registration Number"
+    ],
+    "categorical": [
+        "Cuisine",
+        "City",
+        "Endorsed By",
+        "Restaurant Type",
+        "Restaurant Location",
+        "restaurant_theme_mod"
+    ],
+    "numerical": [
+        "Overall Restaurant Rating",
+        "Food Rating",
+        "Comedy Gigs Rating",
+        "Restaurant Zomato Rating",
+        "Value for Money",
+        "Value Deals Rating",
+        "Live Music Rating",
+        "Staff Responsivness",
+        "Hygiene Rating",
+        "Order Wait Time",
+        "Privacy",
+        "Ambience",
+        "Lively",
+        "Service",
+        "Comfortablility",
+        "Annual Turnover",
+        "Instagram Popularity Quotient",
+        "Facebook Popularity Quotient",
+        "Annual Turnover backup"
+    ],
+    "binary": [
+        "Liquor License Obtained",
+        "Situated in a Multi Complex",
+        "Open Sitting Available",
+        "Resturant Tier",
+        "Fire Audit",
+        "Dedicated Parking",
+        "has_live_sports",
+        "Restaurant City Tier"
+    ],
+    "date": [
+        "days_since_open"
+    ]
+}
